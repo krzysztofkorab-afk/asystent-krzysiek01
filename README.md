@@ -31,3 +31,10 @@ Na później przewidziane moduły: internet/search, Gmail, Google Calendar, Exce
 
 ## Automatyczna kompilacja APK
 Projekt zawiera workflow `.github/workflows/android-apk.yml`. Po wrzuceniu repozytorium na GitHub akcja buduje `app-debug.apk` i zapisuje go jako artefakt `Asystent-Krzyska-APK`.
+
+## Wersja 1.2-reminders
+- przypomnienia nie znikają po wyświetleniu powiadomienia,
+- historia wykonanych przypomnień,
+- ręczne dodawanie treści + wybór daty i godziny,
+- usuwanie przypomnień z listy,
+- nowa ikona aplikacji.

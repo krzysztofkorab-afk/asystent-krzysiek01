@@ -28,6 +28,5 @@ public class ReminderReceiver extends BroadcastReceiver {
             .setPriority(android.app.Notification.PRIORITY_HIGH)
             .setAutoCancel(true).setContentIntent(pi).build();
         nm.notify(id,n);
-        ReminderStore.remove(c,id);
     }
 }
